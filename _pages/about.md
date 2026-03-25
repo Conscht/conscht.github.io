@@ -17,7 +17,7 @@ redirect_from:
 # About Me
 
 
-Yo, I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in early 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
+I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in early 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
 
 My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
 

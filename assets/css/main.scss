@@ -198,3 +198,36 @@ hr,
 .page__content h4 {
   color: #F5F3FF;
 }
+
+
+/* --- FORCE VERTICAL SIDEBAR LINKS ON DESKTOP --- */
+.sidebar .author__urls-wrapper {
+  display: block !important;
+}
+
+.sidebar .author__urls {
+  display: block !important;
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.sidebar .author__urls li {
+  white-space: normal !important;
+  display: block !important;
+}
+
+.sidebar .author__urls a {
+  display: block !important;
+  padding: 5px 0 !important;
+  font-size: inherit !important;
+}
+
+.sidebar .author__urls i {
+  width: 25px;
+  text-align: center;
+  display: inline-block;
+}

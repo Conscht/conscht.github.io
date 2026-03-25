@@ -28,7 +28,7 @@ My research interests lie at the intersection of computer vision and signal proc
 
 
 
-# 🎖 Honors and Awards
+# 🏅 Honors and Awards
 - *2026.03*: Placed **1st** out of more than **370 competitors** in the [Kaggle Jaguar Re-Identification Challenge](https://www.kaggle.com/competitions/jaguar-re-id/leaderboard).
 
 # 📖 Education

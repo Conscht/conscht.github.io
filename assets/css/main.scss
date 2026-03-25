@@ -200,37 +200,14 @@ hr,
 }
 
 
-/* --- FORCE VERTICAL SIDEBAR LINKS ON DESKTOP --- */
-/* (Wrapped in breakpoint to avoid breaking mobile dropdown) */
 
-@include breakpoint($large) {
-  .sidebar .author__urls-wrapper {
-    display: block !important;
-  }
-
-  .sidebar .author__urls {
-    display: block !important;
-    position: relative !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-  }
-
-  .sidebar .author__urls li {
-    white-space: normal !important;
-    display: block !important;
-  }
-
-  .sidebar .author__urls a {
-    display: block !important;
-    padding: 5px 0 !important;
-    font-size: inherit !important;
-  }
-
-  /* Force icon color ONLY on desktop/dark background */
-  .sidebar .author__urls i {
-    color: #A78BFA !important;
-  }
+@media (min-width: 1024px) {
+    /* Only force the icon color on desktop/large screens where background is dark */
+    .sidebar .author__urls i {
+        color: #A78BFA !important;
+    }
+    
+    .sidebar .author__urls a:hover i {
+        color: #C4B5FD !important;
+    }
 }

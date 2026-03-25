@@ -134,7 +134,6 @@ a:hover,
 /* Ensure borders match the theme */
 hr,
 .page__content hr,
-.masthead,
 .archive__item-teaser {
     border-color: #4B3F63 !important;
 }
@@ -144,7 +143,58 @@ hr,
 .archive,
 .initial-content,
 .layout--single,
-.masthead,
 .sidebar {
     background-color: transparent;
+}
+
+
+/* --- NAVBAR & MASTHEAD POLISH --- */
+
+.masthead {
+  background: transparent !important;
+  border-bottom: 1px solid #4B3F63 !important;
+}
+
+.greedy-nav {
+  background: transparent !important;
+}
+
+.greedy-nav .visible-links a {
+  color: #A78BFA !important;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: #C4B5FD !important;
+}
+
+
+/* --- SIDEBAR & PROFILE POLISH --- */
+
+.author__avatar img {
+  border: 2px solid #C4B5FD !important;
+  box-shadow: none !important;
+}
+
+.author__name {
+  color: #F5F3FF !important;
+}
+
+.author__bio,
+.author__urls,
+.author__urls a {
+  color: #D6CCF5 !important;
+}
+
+
+/* --- PAGE TEXT ADJUSTMENTS --- */
+
+.page__content {
+  color: #DDD6FE;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  color: #F5F3FF;
 }

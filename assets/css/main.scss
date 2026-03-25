@@ -201,39 +201,36 @@ hr,
 
 
 /* --- FORCE VERTICAL SIDEBAR LINKS ON DESKTOP --- */
-.sidebar .author__urls-wrapper {
-  display: block !important;
-}
+/* (Wrapped in breakpoint to avoid breaking mobile dropdown) */
 
-.sidebar .author__urls {
-  display: block !important;
-  position: relative !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: 0 !important;
-  background: transparent !important;
-  box-shadow: none !important;
-}
+@include breakpoint($large) {
+  .sidebar .author__urls-wrapper {
+    display: block !important;
+  }
 
-.sidebar .author__urls li {
-  white-space: normal !important;
-  display: block !important;
-}
+  .sidebar .author__urls {
+    display: block !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
 
-.sidebar .author__urls a {
-  display: block !important;
-  padding: 5px 0 !important;
-  font-size: inherit !important;
-}
+  .sidebar .author__urls li {
+    white-space: normal !important;
+    display: block !important;
+  }
 
-.sidebar .author__urls i {
-  width: 25px;
-  text-align: center;
-  display: inline-block;
-  color: #A78BFA !important; /* Force icons to accent color on dark background */
-}
+  .sidebar .author__urls a {
+    display: block !important;
+    padding: 5px 0 !important;
+    font-size: inherit !important;
+  }
 
-/* Ensure hover state for icons */
-.sidebar .author__urls a:hover i {
-  color: #C4B5FD !important;
+  /* Force icon color ONLY on desktop/dark background */
+  .sidebar .author__urls i {
+    color: #A78BFA !important;
+  }
 }

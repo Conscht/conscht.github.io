@@ -118,3 +118,28 @@ body {
 .layout--single {
     background-color: transparent;
 }
+
+
+/* --- Custom Purple Tuning --- */
+
+/* Main link color & typed text */
+a,
+.masthead__menu-item a,
+#typed-intro,
+#typed-role {
+  color: #7E57C2;
+}
+
+/* Hover state: slightly darker purple */
+a:hover,
+.masthead__menu-item a:hover {
+  color: #6843B9;
+}
+
+/* Divider lines & borders: soft purple */
+hr,
+.page__content hr,
+.masthead,
+.archive__item-teaser {
+  border-color: #ddd2f3 !important;
+}

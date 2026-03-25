@@ -108,38 +108,37 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+/* --- EXPERIMENTAL DARK PURPLE THEME --- */
+
 body {
-    background-color: #faf7fd;
+    background-color: #7E57C2;
+    color: #1f1f1f;
 }
 
 .page,
 .archive,
 .initial-content,
-.layout--single {
+.layout--single,
+.masthead {
     background-color: transparent;
 }
 
-
-/* --- Custom Purple Tuning --- */
-
-/* Main link color & typed text */
 a,
 .masthead__menu-item a,
 #typed-intro,
 #typed-role {
-  color: #7E57C2;
+    color: #1f1f1f;
 }
 
-/* Hover state: slightly darker purple */
 a:hover,
 .masthead__menu-item a:hover {
-  color: #6843B9;
+    color: #fff;
 }
 
-/* Divider lines & borders: soft purple */
+/* Ensure borders don't vanish or clash */
 hr,
 .page__content hr,
 .masthead,
 .archive__item-teaser {
-  border-color: #ddd2f3 !important;
+    border-color: rgba(31, 31, 31, 0.2) !important;
 }

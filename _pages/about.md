@@ -21,6 +21,10 @@ Yo, I am a Master's student in Computer Science at the Hasso Plattner Institute,
 
 My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
 
+<p style="font-size: 1.15rem; margin-top: 0.5rem;">
+  <strong><span id="typed-role"></span></strong>
+</p>
+
 # 🔥 News
 - *2026.03*: &nbsp;🎉 Submitted a first-author paper to **ECCV 2026**. Preprint coming soon.
 - *2026.03*: &nbsp;🎉 Submitted my first solo-author paper to **Interspeech 2026**. Preprint coming soon.

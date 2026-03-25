@@ -107,3 +107,14 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+body {
+    background-color: #faf7fd;
+}
+
+.page,
+.archive,
+.initial-content,
+.layout--single {
+    background-color: transparent;
+}

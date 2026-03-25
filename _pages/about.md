@@ -17,13 +17,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+<p style="font-size: 1.15rem; margin-top: 0.5rem;">
+  <strong><span id="typed-role"></span></strong>
+</p>
+
+# About Me
+
+
 Yo, I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in early 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
 
 My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
 
-<p style="font-size: 1.15rem; margin-top: 0.5rem;">
-  <strong><span id="typed-role"></span></strong>
-</p>
 
 # 🔥 News
 - *2026.03*: &nbsp;🎉 Submitted a first-author paper to **ECCV 2026**. Preprint coming soon.

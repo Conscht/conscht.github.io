@@ -1,0 +1,27 @@
+# 📝 Publications
+
+<!-- Replace this section with your actual papers once available -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="paper preview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[First-Author Paper Title](#)
+
+**Your Name**, Coauthor A, Coauthor B
+
+[**Preprint**](#) [**Code**](#)
+- Brief one-sentence description of the paper and its main contribution.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="paper preview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Solo-Author Paper Title](#)
+
+**Your Name**
+
+[**Preprint**](#)
+- Brief one-sentence description of the paper and its main contribution.
+</div>
+</div>

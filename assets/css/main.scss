@@ -230,4 +230,10 @@ hr,
   width: 25px;
   text-align: center;
   display: inline-block;
+  color: #A78BFA !important; /* Force icons to accent color on dark background */
+}
+
+/* Ensure hover state for icons */
+.sidebar .author__urls a:hover i {
+  color: #C4B5FD !important;
 }

@@ -33,36 +33,10 @@ My research interests lie at the intersection of computer vision and signal proc
 - *2026.03*: &nbsp;🎉 Submitted a first-author paper to **ECCV 2026**. Preprint coming soon.
 - *2026.03*: &nbsp;🎉 Submitted my first solo-author paper to **Interspeech 2026**. Preprint coming soon.
 
-# 📝 Publications
 
-<!-- Replace this section with your actual papers once available -->
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="paper preview" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[First-Author Paper Title](#)
-
-**Your Name**, Coauthor A, Coauthor B
-
-[**Preprint**](#) [**Code**](#)
-- Brief one-sentence description of the paper and its main contribution.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/500x300.png' alt="paper preview" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Solo-Author Paper Title](#)
-
-**Your Name**
-
-[**Preprint**](#)
-- Brief one-sentence description of the paper and its main contribution.
-</div>
-</div>
 
 # 🎖 Honors and Awards
-- *2026.03*: Placed **1st** out of more than **350 competitors** in the Kaggle Jaguar Re-Identification Challenge.
+- *2026.03*: Placed **1st** out of more than **370 competitors** in the [Kaggle Jaguar Re-Identification Challenge](https://www.kaggle.com/competitions/jaguar-re-id/leaderboard).
 
 # 📖 Education
 - *2024.10 – 2027.03 (expected)*, **Hasso Plattner Institute**, Potsdam, Germany  

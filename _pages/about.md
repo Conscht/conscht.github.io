@@ -45,5 +45,5 @@ My research interests lie at the intersection of computer vision and signal proc
   Researcher  
   Working on CCNNs
 
-- *2024 – Present*, **Max Delbrück Center**, Berlin, Germany  
+- *2023.09 – 2024.09*, **German Aerospace Center (DLR)**, Hamburg, Germany  
   Research Assistant

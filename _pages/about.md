@@ -22,10 +22,21 @@ I am a Master's student in Computer Science at the Hasso Plattner Institute, wit
 My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
 
 
-# 🔥 News
-
-- *2026*: Our work **XTC-Bench** has been accepted to **WACV**! [Paper](https://arxiv.org/abs/2604.25072) · [Project page](https://weixingw.github.io/xtc-bench/)
-- *2026.06*: My solo-author preprint **TargetSEC** is available. [Paper](https://arxiv.org/abs/2606.07293) · [Demo](https://conscht.github.io/TargetSEC/)
+<section class="news-card" aria-labelledby="-news">
+  <h1 id="-news" class="news-card__title"><i class="fas fa-rss" aria-hidden="true"></i> News</h1>
+  <ul class="news-card__list">
+    <li class="news-card__item">
+      <i class="fas fa-award news-card__icon" aria-hidden="true"></i>
+      <p class="news-card__text">Our work <a href="https://weixingw.github.io/xtc-bench/">XTC-Bench</a> has been accepted to <strong>WACV</strong>. <a class="news-card__paper" href="https://arxiv.org/abs/2604.25072">Paper <span class="news-card__arrow" aria-hidden="true">↗</span></a></p>
+      <time class="news-card__date" datetime="2026">2026</time>
+    </li>
+    <li class="news-card__item">
+      <i class="fas fa-file-alt news-card__icon" aria-hidden="true"></i>
+      <p class="news-card__text">My solo-author preprint <a href="https://arxiv.org/abs/2606.07293">TargetSEC</a> is out, with an <a href="https://conscht.github.io/TargetSEC/">audio demo</a>.</p>
+      <time class="news-card__date" datetime="2026-06">Jun 2026</time>
+    </li>
+  </ul>
+</section>
 
 
 # 📚 Publications

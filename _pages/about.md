@@ -28,7 +28,7 @@ My research interests lie at the intersection of computer vision and signal proc
     <li class="news-card__item">
       <i class="fas fa-award news-card__icon" aria-hidden="true"></i>
       <p class="news-card__text">Our work <a href="https://weixingw.github.io/xtc-bench/">XTC-Bench</a> has been accepted to <strong>WACV</strong>. <a class="news-card__paper" href="https://arxiv.org/abs/2604.25072">Paper <span class="news-card__arrow" aria-hidden="true">↗</span></a></p>
-      <time class="news-card__date" datetime="2026">2026</time>
+      <time class="news-card__date" datetime="2026-10">Oct 2026</time>
     </li>
     <li class="news-card__item">
       <i class="fas fa-file-alt news-card__icon" aria-hidden="true"></i>
@@ -37,19 +37,6 @@ My research interests lie at the intersection of computer vision and signal proc
     </li>
   </ul>
 </section>
-
-
-# 📚 Publications
-
-**Beyond Accuracy: Benchmarking Cross-Task Consistency in Unified Multimodal Models (XTC-Bench)**<br>
-Weixing Wang\*, Liudvikas Zekas\*, Anton Hackl\*, **Constantin Alexander Auga**\*, Parisa Shahabinejad, Jona Otholt, Antonio Rueda-Toicen, Gerard de Melo<br>
-**Accepted to WACV** · \* Equal contribution<br>
-[Paper](https://arxiv.org/abs/2604.25072) · [Project page](https://weixingw.github.io/xtc-bench/)
-
-**TargetSEC: Plug-and-Play In-the-Wild Speech Emotion Conversion via Arousal-Conditioned Latent Style Diffusion**<br>
-**Constantin Alexander Auga**<br>
-Preprint, 2026<br>
-[Paper](https://arxiv.org/abs/2606.07293) · [Demo](https://conscht.github.io/TargetSEC/)
 
 
 # 🏅 Honors and Awards
@@ -71,3 +58,15 @@ Preprint, 2026<br>
 
 - *2023.09 – 2024.09*, **German Aerospace Center (DLR)**, Hamburg, Germany  
   Research Assistant
+
+# 📚 Publications
+
+**Beyond Accuracy: Benchmarking Cross-Task Consistency in Unified Multimodal Models (XTC-Bench)**<br>
+Weixing Wang\*, Liudvikas Zekas\*, Anton Hackl\*, **Constantin Alexander Auga**\*, Parisa Shahabinejad, Jona Otholt, Antonio Rueda-Toicen, Gerard de Melo<br>
+**Accepted to WACV** · \* Equal contribution<br>
+[Paper](https://arxiv.org/abs/2604.25072) · [Project page](https://weixingw.github.io/xtc-bench/)
+
+**TargetSEC: Plug-and-Play In-the-Wild Speech Emotion Conversion via Arousal-Conditioned Latent Style Diffusion**<br>
+**Constantin Alexander Auga**<br>
+Preprint, 2026<br>
+[Paper](https://arxiv.org/abs/2606.07293) · [Demo](https://conscht.github.io/TargetSEC/)

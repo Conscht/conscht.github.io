@@ -17,7 +17,7 @@ redirect_from:
 # About Me
 
 
-I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in early 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
+I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in June 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
 
 My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
 
@@ -46,7 +46,7 @@ My research interests lie at the intersection of computer vision and signal proc
 - *2027.02 – 2027.06 (upcoming)*, **University of Technology Sydney (UTS)**, Sydney, Australia<br>
   Selected for an exchange semester
 
-- *2024.10 – 2027.03 (expected)*, **Hasso Plattner Institute**, Potsdam, Germany  
+- *2024.10 – 2027.06 (expected)*, **Hasso Plattner Institute**, Potsdam, Germany<br>
   Master of Science in Computer Science  
   Focus: Computer Vision, Machine Learning, Representation Learning, and Algorithms
 

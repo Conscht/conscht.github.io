@@ -43,6 +43,9 @@ My research interests lie at the intersection of computer vision and signal proc
 - *2026.03*: Placed **1st** out of more than **370 competitors** in the [Kaggle Jaguar Re-Identification Challenge](https://www.kaggle.com/competitions/jaguar-re-id/leaderboard).
 
 # 📖 Education
+- *2027.02 – 2027.06 (upcoming)*, **University of Technology Sydney (UTS)**, Sydney, Australia<br>
+  Selected for an exchange semester
+
 - *2024.10 – 2027.03 (expected)*, **Hasso Plattner Institute**, Potsdam, Germany  
   Master of Science in Computer Science  
   Focus: Computer Vision, Machine Learning, Representation Learning, and Algorithms

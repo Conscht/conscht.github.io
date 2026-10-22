@@ -57,7 +57,8 @@ My research interests lie at the intersection of computer vision and signal proc
 # 💻 Experience
 - *2025.09 – Present*, **Max Delbrück Center**, Berlin, Germany  
   Researcher  
-  Working on CCNNs
+  Working on CCNNs  
+  Contributing to [aQQua](https://www.aqqua.life/), a tool that helps interpret complex embedding spaces
 
 - *2023.09 – 2024.09*, **German Aerospace Center (DLR)**, Hamburg, Germany  
   Research Assistant

@@ -19,7 +19,7 @@ redirect_from:
 
 I am a Master's student in Computer Science at the Hasso Plattner Institute, with an expected graduation in June 2027. Prior to this, I earned my Bachelor's degree in Computer Science from the University of Hamburg.
 
-My research interests lie at the intersection of computer vision and signal processing, with a particular focus on representation learning.
+My research spans multimodal model evaluation, generative modeling, and self-supervised learning, with a focus on how models represent information and how those representations support perception, prediction, and world understanding. I am particularly interested in multimodal video learning and predictive models of dynamic environments.
 
 
 <section class="news-card" aria-labelledby="-news">

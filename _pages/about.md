@@ -21,6 +21,8 @@ I am a Master's student in Computer Science at the Hasso Plattner Institute, wit
 
 My research spans multimodal model evaluation, generative modeling, and self-supervised learning, with a focus on how models represent information and how those representations support perception, prediction, and world understanding. I am particularly interested in multimodal video learning and predictive models of dynamic environments.
 
+My full CV is available <a href="/files/Constantin_Auga_CV.pdf" target="_blank" rel="noopener">here (PDF)</a>.
+
 
 <section class="news-card" aria-labelledby="-news">
   <h1 id="-news" class="news-card__title"><i class="fas fa-rss" aria-hidden="true"></i> News</h1>

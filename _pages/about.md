@@ -74,5 +74,5 @@ Weixing Wang\*, Liudvikas Zekas\*, Anton Hackl\*, **Constantin Alexander Auga**\
 
 **TargetSEC: Plug-and-Play In-the-Wild Speech Emotion Conversion via Arousal-Conditioned Latent Style Diffusion**<br>
 **Constantin Alexander Auga**<br>
-Preprint, 2026<br>
+ICASSP 2027 – Under review<br>
 [Paper](https://arxiv.org/abs/2606.07293) · [Demo](https://conscht.github.io/TargetSEC/)

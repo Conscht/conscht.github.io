@@ -1,0 +1,137 @@
+% Public academic CV. Build from the repository root with:
+% tectonic --outdir files _cv/Constantin_Auga_CV.tex
+\documentclass[10pt,a4paper]{article}
+\usepackage[left=17.5mm,right=17.5mm,top=13mm,bottom=13mm]{geometry}
+\usepackage{libertine}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\definecolor{ink}{HTML}{202D3E}
+\definecolor{accent}{HTML}{246781}
+\definecolor{muted}{HTML}{52677E}
+\definecolor{rulecolor}{HTML}{B5C8D4}
+\hypersetup{
+  colorlinks=true,urlcolor=accent,linkcolor=accent,
+  pdftitle={Constantin Alexander Auga Academic Research CV},
+  pdfauthor={Constantin Alexander Auga},
+  pdfsubject={Research in computer vision and multimodal learning}
+}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=1em
+\setlist[itemize]{leftmargin=11pt,label=\textcolor{accent}{\scriptsize\textbullet},
+  topsep=1.5pt,itemsep=0.8pt,parsep=0pt,partopsep=0pt}
+\newcommand{\cvsection}[2]{%
+  \par\vspace{6pt}\noindent
+  {\color{accent}#1}\hspace{4pt}{\bfseries\fontsize{10.8}{12.2}\selectfont #2}\par
+  \vspace{2pt}{\color{rulecolor}\hrule height 0.35pt}\vspace{4pt}
+}
+\newcommand{\cvrow}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}Xr@{}}
+    {\bfseries #1} & {\fontsize{9}{11}\selectfont\color{muted}#2}
+  \end{tabularx}\par
+}
+\newcommand{\cvdetail}[1]{{\fontsize{9.3}{11}\selectfont\color{muted}\itshape #1}\par}
+\newcommand{\cvlinks}[3]{\href{#1}{[Paper]}\enspace\href{#2}{[Project]}\enspace\href{#3}{[Code]}}
+\begin{document}
+\color{ink}
+\fontsize{10.5}{12.2}\selectfont
+\raggedright
+
+\begin{center}
+  {\bfseries\fontsize{23}{26}\selectfont Constantin Alexander Auga}\par
+  \vspace{6pt}{\color{accent}\rule{30mm}{0.7pt}}\par
+  \vspace{3pt}
+  {\fontsize{9.3}{11.5}\selectfont
+    {\color{accent}\faMapMarker*}\enspace Berlin, Germany\qquad
+    {\color{accent}\faEnvelope}\enspace
+    \href{mailto:constantin.auga@student.hpi.uni-potsdam.de}{constantin.auga@student.hpi.uni-potsdam.de}\par
+    \vspace{3pt}
+    \href{https://scholar.google.de/citations?hl=en\&user=INcDsjcAAAAJ}{\faGraduationCap\enspace Google Scholar}
+    \quad{\color{rulecolor}|}\quad
+    \href{https://github.com/Conscht}{\faGithub\enspace GitHub}
+    \quad{\color{rulecolor}|}\quad
+    \href{https://conscht.github.io/}{\faGlobe\enspace Website}
+    \quad{\color{rulecolor}|}\quad
+    \href{https://www.linkedin.com/in/constantin-alexander-auga-995a31230/}{\faLinkedin\enspace LinkedIn}
+  }
+\end{center}
+\vspace{-7pt}
+
+\cvsection{\faLightbulb}{Research Interests}
+I study how video and audio representations preserve complementary information for predicting future events.
+My interests include self-supervised learning, physically consistent world models, and multimodal generation.
+
+\cvsection{\faGraduationCap}{Education}
+\cvrow{Hasso Plattner Institute, University of Potsdam}{Oct 2024 -- Jun 2027 (expected)}
+M.Sc. IT Systems Engineering\quad{\color{rulecolor}|}\quad Current grade: \textbf{1.1} (1.0 best)\par
+\vspace{3pt}
+\cvrow{University of Technology Sydney}{Feb -- Jun 2027 (upcoming)}
+Selected for an exchange semester\par
+\vspace{3pt}
+\cvrow{University of Hamburg}{Oct 2021 -- Sep 2024}
+B.Sc. Computer Science\quad{\color{rulecolor}|}\quad Final grade: 2.0 (top 26\% of cohort)
+
+\cvsection{\faBookOpen}{Publications and Preprints}
+{\bfseries Beyond Accuracy: Benchmarking Cross-Task Consistency in Unified Multimodal Models}\par
+\cvrow{WACV 2027 -- Accepted}{\cvlinks{https://arxiv.org/abs/2604.25072}{https://weixingw.github.io/xtc-bench/}{https://github.com/liudvikaszekas/xtc-benchmark}}
+{\fontsize{9.1}{10.5}\selectfont
+  \textbf{Constantin Alexander Auga}\textsuperscript{*}, Weixing Wang\textsuperscript{*},
+  Liudvikas Zekas\textsuperscript{*}, Anton Hackl\textsuperscript{*}, et al.\par
+  {\color{muted}\textsuperscript{*}Equal contribution. Co-first authors listed with the applicant first.}\par
+}
+\begin{itemize}
+  \item Co-developed XTC-Bench with 31,530 scene-graph facts across 2,000 images.
+  \item Compared image generation with VQA over matched objects, attributes, and relations.
+\end{itemize}
+\vspace{3pt}
+{\bfseries TargetSEC: Plug-and-Play In-the-Wild Speech Emotion Conversion via Arousal-Conditioned Latent Style Diffusion}\par
+\cvrow{Preprint, 2026}{\cvlinks{https://arxiv.org/abs/2606.07293}{https://conscht.github.io/TargetSEC/}{https://github.com/Conscht/TargetSEC}}
+{\fontsize{9.1}{10.5}\selectfont\textbf{Constantin Alexander Auga} (sole author)}\par
+\begin{itemize}
+  \item Built a latent diffusion model conditioned on speaker identity and continuous arousal.
+  \item Evaluated conversion, speaker identity, intelligibility, and naturalness on MSP-Podcast.
+\end{itemize}
+
+\cvsection{\faFlask}{Research Experience}
+\cvrow{M.Sc. Thesis Research -- Hearing Beyond the Frame}{Ongoing}
+\cvdetail{Hasso Plattner Institute, University of Potsdam\quad |\quad Supervisor: Gerard de Melo}
+\begin{itemize}
+  \item Predicting future latent states from pretrained video and audio features for action anticipation.
+  \item Built EgoSONAP with human-verified sound cues and silent- and shuffled-audio controls.
+\end{itemize}
+\vspace{3pt}
+\cvrow{Research Assistant -- Max Delbr\"uck Center}{Sep 2025 -- Present}
+\cvdetail{Continuous convolutional neural networks (CCNNs)}
+\begin{itemize}
+  \item Evaluated resolution robustness of continuous convolutional networks on 2D and 3D data.
+  \item Contributed to \href{https://www.aqqua.life/}{aQQua}, a tool for inspecting and interpreting learned embedding spaces.
+\end{itemize}
+\vspace{3pt}
+\cvrow{Research Assistant -- German Aerospace Center (DLR)}{Sep 2023 -- Sep 2024}
+\cvdetail{Machine learning for hydrogen-powered aviation}
+\begin{itemize}
+  \item Built real-time sensor pipelines for ML-based hydrogen-leak localization.
+  \item Visualized spatial leak estimates as heatmaps for experimental analysis.
+\end{itemize}
+
+\cvsection{\faTrophy}{Awards and Academic Service}
+\cvrow{1st Place, Jaguar Re-Identification Challenge (Kaggle)}{Mar 2026}
+Ranked 1st of 370+ competitors with a DINOv3-based visual re-identification system.\par
+\vspace{3pt}
+\cvrow{Student Representative, Hasso Plattner Institute}{Nov 2025 -- Present}
+Served on official selection committees for two professorships.
+
+\cvsection{\faCode}{Technical Skills and Languages}
+\textbf{Programming:} Python, C++, C\#, Java, JavaScript, SQL\par
+\textbf{Machine learning:} PyTorch, Hugging Face, NumPy, pandas, scikit-learn\par
+\textbf{Tools:} Git, Linux, ROS, Docker (basic familiarity)\par
+\textbf{Languages:} German (native), English (TOEFL iBT 103, CEFR C1), Portuguese, Spanish, Georgian (basic)
+
+\end{document}

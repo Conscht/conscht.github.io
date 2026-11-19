@@ -34,7 +34,7 @@ My full CV is available <a href="/files/Constantin_Auga_CV.pdf" target="_blank" 
     </li>
     <li class="news-card__item">
       <i class="fas fa-file-alt news-card__icon" aria-hidden="true"></i>
-      <p class="news-card__text">My solo-author preprint <a href="https://arxiv.org/abs/2606.07293">TargetSEC</a> is out, with an <a href="https://conscht.github.io/TargetSEC/">audio demo</a>.</p>
+      <p class="news-card__text">My preprint <a href="https://arxiv.org/abs/2606.07293">TargetSEC</a> is out, with an <a href="https://conscht.github.io/TargetSEC/">audio demo</a>.</p>
       <time class="news-card__date" datetime="2026-06">Jun 2026</time>
     </li>
   </ul>
